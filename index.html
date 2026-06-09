@@ -12,12 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li> 
-
+                <li><a href="#ficha">Home<i class="fa-solid fa-house" class="link"></i></a></li>
+                <li><a href="#skills">Skills<i class="fa-solid fa-brain" class="link"></i></a></li>
+                <li><a href="#formacao">Formação<i class="fa-solid fa-graduation-cap" class="link"></i></a></li>
+                <li><a href="#projectos">Projectos<i class="fa-solid fa-trowel-bricks" class="link"></i></a></li>
+                <li><a href="#" id="botao-tema">Tema<i class="fa-solid fa-moon"></i></a></li> 
             </ul>
 
         </nav>
@@ -191,12 +190,95 @@
             </article> <!-- Fim article#skills --> 
 
             <article id="formacao">
-                <h2>Formações</h2>
+                <h2>Formação<i class="fa-solid fa-graduation-cap"></i></h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2017-2019</p>
+                        <h3 class="instituicao"> Colégio Antonia Sucesso</h3>
+                        <p class="titulação">Ciências Físicas e Biológicas</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2021</p>
+                        <h3 class="instituicao"> MAPTSS</h3>
+                        <p class="titulação">hardware</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2021-2025</p>
+                        <h3 class="instituicao"> Intituto Superior Técnico de Angola (ISTA)</h3>
+                        <p class="titulação">Licenciatura em Engenharia Infómatica</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2026</p>
+                        <h3 class="instituicao"> CIFTEL</h3>
+                        <P class="titulação">Programação Web</P>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2026</p>
+                        <h3 class="instituicao"> Big Center</h3>
+                        <P class="titulação">Inglês</P> 
+                    </div>
+                    
+                </div> <!-- Fim #formacao-container -->
 
             </article> <!-- Fim article#formacao -->
 
             <article id="projectos"> 
                 <h2>Projectos</h2>
+                <div id="projecto-container">
+                    <div class="projecto"> <!-- Projecto 01-->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projecto 1" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projecto de Vídeos</h3>
+                            <p>
+                                Projecto construído para treinar a inserção de vídeos em nosso site.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum dolorem cupiditate praesentium, nihil qui ex, quasi tempore repellat placeat iste. Possimus, obcaecati hic eaque tenetur doloribus culpa repudiandae impedit.
+                                Ullam, optio suscipit reiciendis magni praesentium ipsum architecto aliquid, saepe quos impedit nesciunt autem assumenda similique? Quisquam repellendus consequuntur soluta quaerat. Sapiente sunt nihil ea aliquid tenetur laudantium minima tempore.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projecto"> <!-- Projecto 02 -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projecto 2" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projecto Cordel</h3>
+                            <p>
+                                Projecto construído para treinar efeito paralax em imagens.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum dolorem cupiditate praesentium, nihil qui ex, quasi tempore repellat placeat iste. Possimus, obcaecati hic eaque tenetur doloribus culpa repudiandae impedit.
+                                Ullam, optio suscipit reiciendis magni praesentium ipsum architecto aliquid, saepe quos impedit nesciunt autem assumenda similique? Quisquam repellendus consequuntur soluta quaerat. Sapiente sunt nihil ea aliquid tenetur laudantium minima tempore.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projecto"> <!-- Projecto 03 -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projecto 3" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projecto Android</h3>
+                            <p>
+                                Projecto construído para treinar conteúdos e imagens dinâmicas.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum dolorem cupiditate praesentium, nihil qui ex, quasi tempore repellat placeat iste. Possimus, obcaecati hic eaque tenetur doloribus culpa repudiandae impedit.
+                                Ullam, optio suscipit reiciendis magni praesentium ipsum architecto aliquid, saepe quos impedit nesciunt autem assumenda similique? Quisquam repellendus consequuntur soluta quaerat. Sapiente sunt nihil ea aliquid tenetur laudantium minima tempore.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
 
             </article> <!-- Fim article#projectos -->
 
@@ -204,6 +286,7 @@
 
     </main>
     <footer>
+        Portfólio desenvolvido por <a href="htts://www.cursoemvideo.com" target="_blank"> Curso em vídeo</a> em 2025
 
     </footer>
 
